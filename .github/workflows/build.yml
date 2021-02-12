@@ -8,5 +8,6 @@ jobs:
       - name: Print Hello-World
         env:
           PRINT: Hello-World2
+          run: echo "HELLO-echo"
         run: |
           echo $PRINT
