@@ -7,6 +7,7 @@ jobs:
     steps:
       - name: Print Hello-World
         env:
-          run: echo "HELLO-echo2"
+          PRINT: Hello-World2
+          run: echo "HELLO-echo"
         run: |
           echo $PRINT
