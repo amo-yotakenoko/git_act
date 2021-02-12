@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Print Hello-World
         env:
-          PRINT: Hello-World2
+          PRINT: Hello-World3
           run: cd scratch-gui/&&npm start
         run: |
           echo $PRINT
