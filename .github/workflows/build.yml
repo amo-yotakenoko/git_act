@@ -1,0 +1,12 @@
+name: GithubActoinsTest
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello-World
+        env:
+          PRINT: Hello-World
+        run: |
+          echo $PRINT
