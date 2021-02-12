@@ -1,3 +1,4 @@
+on: push
 name: "FizzBuzz"
 description: "Calculate Fizzbuzz below the inputted number."
 inputs:
