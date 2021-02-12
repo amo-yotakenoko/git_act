@@ -8,6 +8,6 @@ jobs:
       - name: Print Hello-World
         env:
           PRINT: Hello-World2
-          run: pwd
+          run: cd scratch-gui/&&npm start
         run: |
           echo $PRINT
