@@ -1,0 +1,10 @@
+name: "FizzBuzz"
+description: "Calculate Fizzbuzz below the inputted number."
+inputs:
+  number: # id of input
+    description: "number for FizzBuzz"
+    required: true
+    default: 100
+runs:
+  using: "node12"
+  main: "dist/index.js"
