@@ -7,7 +7,3 @@ jobs:
     steps:
       - name: ls
         run: ls
-    steps:
-      - name: pwd
-        run: pwd
-        
