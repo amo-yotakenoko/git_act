@@ -6,4 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: pwd
+      - run: ls
       - run: ./a.out
