@@ -8,5 +8,14 @@ jobs:
       - name: run multi command
         run: |
           git clone https://github.com/amo-yotakenoko/VirtualRobot_Scratch.git
-
+          echo -----
           ls
+          echo -----
+          cd VirtualRobot_Scratch
+          echo -----
+          ls
+          echo -----
+          cd scratch-gui
+          echo -----
+          ls
+          echo -----
