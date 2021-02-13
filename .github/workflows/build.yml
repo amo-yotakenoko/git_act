@@ -21,4 +21,3 @@ jobs:
           cd ../
           cd scratch-gui
           echo -----
-          npm start
