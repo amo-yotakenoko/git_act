@@ -10,4 +10,4 @@ jobs:
       - run: mkdir mk
       - run: ls
       - run: cd mk
-      - run: cd pwd
+      - run: pwd
