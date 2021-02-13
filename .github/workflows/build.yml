@@ -22,4 +22,3 @@ jobs:
           cd scratch-gui
           echo -----
           npm run build
-          npm run deploy
