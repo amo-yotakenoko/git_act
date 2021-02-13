@@ -19,4 +19,4 @@ jobs:
           echo -----
           ls
           echo -----
-          npm start
+          npm run build
