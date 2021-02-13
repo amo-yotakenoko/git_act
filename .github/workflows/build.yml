@@ -1,4 +1,4 @@
-name: GithubActoinsTest
+name: Start
 on: [push]
 
 jobs:
@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Print Hello-World
         env:
-          run: cd scratch-gui/&&npm start
+          run: ./a.out
         run: |
           echo $PRINT
