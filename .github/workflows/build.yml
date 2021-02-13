@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-10.15
     steps:
       - name: run multi command
         run: |
@@ -14,11 +14,11 @@ jobs:
           cd VirtualRobot_Scratch
           echo -----
           cd scratch-vm && npm install && npm link
-                    echo -----
+          echo -----
           cd ../
-                    echo -----
+          echo -----
           cd scratch-gui && npm link scratch-vm && npm install
           cd ../
           cd scratch-gui
-                    echo -----
+          echo -----
           npm start
