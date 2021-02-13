@@ -7,7 +7,8 @@ jobs:
     steps:
       - name: run multi command
         run: |
-          git clone https://github.com/amo-yotakenoko/scratch-gui.git
+          git clone https://github.com/amo-yotakenoko/VirtualRobot_Scratch.git
+
           ls
           cd scratch-gui
           ls
