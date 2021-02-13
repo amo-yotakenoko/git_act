@@ -5,6 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello World
+      - name: ls
         run: ls
+    steps:
+      - name: pwd
         run: pwd
+        
