@@ -5,8 +5,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Hello-World
-        env:
-          run: cat count.c
-        run: |
-          echo $PRINT
+      - name: Hello World
+        run: cat count.c
