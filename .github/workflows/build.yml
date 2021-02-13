@@ -7,4 +7,7 @@ jobs:
     steps:
       - run: pwd
       - run: ls
-      - run: ./a.out
+      - run: mkdir mk
+      - run: ls
+      - run: cd mk
+      - run: cd pwd
