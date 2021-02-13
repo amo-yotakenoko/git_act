@@ -14,8 +14,11 @@ jobs:
           cd VirtualRobot_Scratch
           echo -----
           cd scratch-vm && npm install && npm link
+                    echo -----
           cd ../
+                    echo -----
           cd scratch-gui && npm link scratch-vm && npm install
           cd ../
           cd scratch-gui
+                    echo -----
           npm start
