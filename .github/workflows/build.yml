@@ -7,7 +7,8 @@ jobs:
     steps:
       - name: run multi command
         run: |
-          git clone git@github.com:amo-yotakenoko/scratch-gui.git
+          git clone https://github.com/amo-yotakenoko/scratch-gui.git
           ls
           cd scratch-gui
           ls
+          npm start
