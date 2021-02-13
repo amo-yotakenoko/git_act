@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Print Hello-World
         env:
-          run: ./a.out
+          run: cat count.c
         run: |
           echo $PRINT
