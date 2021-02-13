@@ -10,5 +10,3 @@ jobs:
           git clone https://github.com/amo-yotakenoko/VirtualRobot_Scratch.git
 
           ls
-          cd scratch-gui
-          ls
