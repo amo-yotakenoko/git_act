@@ -11,4 +11,3 @@ jobs:
           ls
           cd scratch-gui
           ls
-          npm start
